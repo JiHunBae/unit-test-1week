@@ -94,12 +94,4 @@ public class ChampionTest {
         assertTrue(champName.equals("다리우스"));
         assertThat("다리우스", is(champName));
     }
-
-    /*@Test
-    public void shouldTopChampionisDarius(){
-        Optional<Champion> filterdChampion = championList.stream().filter(c -> c.getPosition().equals("탑")).findFirst();
-        String champName = filterdChampion.get().getName();
-        assertTrue(champName.equals("다리우스"));
-        assertThat("다리우스", is(champName));
-    }*/
 }
